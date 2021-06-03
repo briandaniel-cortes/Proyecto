@@ -39,10 +39,10 @@
             </form>
             <ul class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Iniciar Sesion</a>
+                    <a class="nav-link" href="<?php echo ruta;?>Welcome/IniciarSesion">Iniciar Sesion<span class="sr-only">(current)</span> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contactanos</a>
+                    <a class="nav-link" href="<?php echo ruta;?>Welcome/Contactos">Contactanos</a>
                 </li>
             </ul>
         </div>
