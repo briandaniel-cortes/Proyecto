@@ -21,7 +21,7 @@ class Welcome extends CI_Controller
 		$data['breadcrumb'] = $breadcrumb;
 		$data['sliderpublico'] = $this->Sliderpublico->verislider();
 		$this->load->view('Componentes/Header',$data);
-		$this->load->view('Visitas/Inicios');
+		$this->load->view('Visitas/Inicio');
 		$this->load->view('Componentes/Footer');
 	}
 	public function nosotros()
